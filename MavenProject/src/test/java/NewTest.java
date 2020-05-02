@@ -14,7 +14,7 @@ public class NewTest {
 	@BeforeMethod
 	
 	public void startUp() {
-		System.setProperty("webdriver.chrome.driver", "d:\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/hanumanjeeshivam/HANUMANJEESHIVAM/automationTest/Users/hanumanjeeshivam/mygitprojects/chromedriver");
 		this.driver= new ChromeDriver();
 		this.driver.manage().window().maximize();
 		this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
